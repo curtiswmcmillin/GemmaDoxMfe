@@ -23,10 +23,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GemmaDoxMfe.Services.Schedu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GemmaDoxMfe.Services.Search.Core", "GemmaDoxMfe.Services.Search.Core\GemmaDoxMfe.Services.Search.Core.csproj", "{4CCAC4F6-EDE3-465D-A647-F74ECAEFF16E}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebUI", "WebUI", "{875682DF-3ACC-48EC-AF8C-3B59A7953FEE}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GemmaDoxMfe.Web", "GemmaDoxMfe.Web\GemmaDoxMfe.Web.csproj", "{EF150FC2-908B-45C9-A1D9-A30FCA1439F7}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,10 +49,6 @@ Global
 		{4CCAC4F6-EDE3-465D-A647-F74ECAEFF16E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4CCAC4F6-EDE3-465D-A647-F74ECAEFF16E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4CCAC4F6-EDE3-465D-A647-F74ECAEFF16E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EF150FC2-908B-45C9-A1D9-A30FCA1439F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EF150FC2-908B-45C9-A1D9-A30FCA1439F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EF150FC2-908B-45C9-A1D9-A30FCA1439F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EF150FC2-908B-45C9-A1D9-A30FCA1439F7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -67,7 +59,6 @@ Global
 		{A5394BC0-B742-46DF-9FE9-87E4B61DDB75} = {5CC2105B-5B19-4708-BB4B-E231E44A686F}
 		{F8496679-2B10-4783-A4E9-3817940A9D04} = {53824B2F-8192-4FD4-8262-B4EBB4F6E40E}
 		{4CCAC4F6-EDE3-465D-A647-F74ECAEFF16E} = {C0A5D73E-5E2B-4CBF-B154-F0C13A4B850A}
-		{EF150FC2-908B-45C9-A1D9-A30FCA1439F7} = {875682DF-3ACC-48EC-AF8C-3B59A7953FEE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {479B64E0-AE2A-42F5-8826-AD92C7AB68CE}
