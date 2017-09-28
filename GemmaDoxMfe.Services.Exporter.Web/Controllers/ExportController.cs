@@ -7,13 +7,13 @@ using Microsoft.AspNetCore.Mvc;
 namespace GemmaDoxMfe.Services.Exporter.Web.Controllers
 {
     [Route("api/[controller]")]
-    public class ValuesController : Controller
+    public class ExportController : Controller
     {
         // GET api/values
         [HttpGet]
         public IEnumerable<string> Get()
         {
-            return new string[] { "value1", "value2" };
+            return new string[] { "export1", "export2" };
         }
 
         // GET api/values/5

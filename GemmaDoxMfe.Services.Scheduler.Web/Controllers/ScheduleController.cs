@@ -4,16 +4,16 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 
-namespace GemmaDoxMfe.Services.Search.Web.Controllers
+namespace GemmaDoxMfe.Services.Scheduler.Web.Controllers
 {
     [Route("api/[controller]")]
-    public class ValuesController : Controller
+    public class ScheduleController : Controller
     {
         // GET api/values
         [HttpGet]
         public IEnumerable<string> Get()
         {
-            return new string[] { "value1", "value2" };
+            return new string[] { "schedule1", "schedule2" };
         }
 
         // GET api/values/5
